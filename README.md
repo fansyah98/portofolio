@@ -1,13 +1,11 @@
 ## Portfolio Website dengan Framework Tailwind CSS
 <div>
-  <img src="https://raw.githubusercontent.com/rioarya01/portfolio-tailwind/main/mockup-readme.png" width="600" />
-</div>
 <br/>
 
 Website Portfolio ini dibuat dengan menggunakan Framework Tailwind CSS v3.3.1.<br>
 Dengan sumber latihan di channel youtube WPU. Dan menerapkan fitur dark mode serta menggunakan<br>
 sedikit animasi dari AOS dan GSAP.<br>
-Link : https://mysterio-portfolio-tailwind.netlify.app<br>
+Link : https://portofolio-pi-lake-42.vercel.app/<br>
 
 *Sumber Referensi :*<br>
 - Tailwind CSS<br>
