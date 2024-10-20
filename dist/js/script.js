@@ -1,3 +1,5 @@
+
+ 
 // Navbar Fixed
 window.onscroll = function () {
     const header = document.querySelector('header');
@@ -52,3 +54,19 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
   } else {
     darkToggle.checked = false;
   }
+
+  function myFunction() {
+    // Select all elements with the class 'hidden' and remove the class to make them visible
+    let hiddenProjects = document.querySelectorAll('.hidden');
+    hiddenProjects.forEach((project) => {
+      project.classList.remove('hidden');
+    });
+
+    // Optionally hide the 'Load More' button after showing all hidden projects
+    document.getElementById('load-more-btn').style.display = 'none';
+  }
+
+
+
+
+  
