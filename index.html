@@ -524,7 +524,7 @@
           </div>
         </div>
         <div class="flex justify-center mt-8">
-          <button  class="rounded-lg bg-primary py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" onclick="myFunction()">
+          <button id="load-more-btn"  class="rounded-lg bg-primary py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" onclick="myFunction()">
             Load More
           </button>
         </div>
@@ -1022,20 +1022,18 @@
         text: '"Jangan takut gagal jadikan kegagalan itu sebagai pelajaran untuk memacu kita berusaha lebih keras lagi meraih yang kita inginkan."',
       });
     </script>
-    <script>
-      document.getElementById('load-more-btn').addEventListener('click', function() {
-        // Show hidden projects
-        document.getElementById('project-2').classList.remove('hidden');
-        document.getElementById('project-3').classList.remove('hidden');
+<script>
+  document.getElementById('load-more-btn').addEventListener('click', function() {
+    // Tampilkan alert
+    alert('Cooming Soon Menu!');
     
-        // Optionally, hide the load more button after projects are shown
-        this.style.display = 'none';
-      });
-    </script>
-    <script>
-      function myFunction() {
-        alert("Cooming Son Menu");
-      }
-      </script>
+    // Show hidden projects
+    document.getElementById('project-2').classList.remove('hidden');
+    document.getElementById('project-3').classList.remove('hidden');
+
+    // Sembunyikan tombol load more setelah proyek ditampilkan
+    this.style.display = 'none';
+  });
+</script>
   </body>
 </html>
